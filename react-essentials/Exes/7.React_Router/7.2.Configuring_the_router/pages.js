@@ -5,12 +5,6 @@ export function Home() {
     return (
         <div>
             <h1>[Company Website]</h1>
-            {/* <nav>
-                <Link to="about">About</Link>
-                <Link to="Events">Events</Link>
-                <Link to="Contact">Contact</Link>
-
-            </nav> */}
         </div>
     );
 }
