@@ -1,9 +1,16 @@
 import React from "react";
+// import {Link} from "react-router-dom"
 
 export function Home() {
     return (
         <div>
             <h1>[Company Website]</h1>
+            {/* <nav>
+                <Link to="about">About</Link>
+                <Link to="Events">Events</Link>
+                <Link to="Contact">Contact</Link>
+
+            </nav> */}
         </div>
     );
 }
@@ -24,7 +31,7 @@ export function Events() {
     );
 }
 
-export function Contacts() {
+export function Contact() {
     return (
         <div>
             <h1>[Contact]</h1>

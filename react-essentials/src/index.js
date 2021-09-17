@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from "./App";
-
-const [,, light] = ["boots", "tent", "headlamp"];
-console.log(light);
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
-  <App login="error" />,  
+  <Router>
+    <App />
+  </Router>,
   document.getElementById('root')
 );
